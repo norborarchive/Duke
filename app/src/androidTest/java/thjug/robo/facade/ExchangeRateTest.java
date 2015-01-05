@@ -3,8 +3,9 @@ package thjug.robo.facade;
 import android.test.InstrumentationTestCase;
 
 import thjug.robo.define.Currency;
-import static org.hamcrest.CoreMatchers.*;
-import static org.hamcrest.MatcherAssert.*;
+
+import static org.hamcrest.CoreMatchers.equalTo;
+import static org.hamcrest.MatcherAssert.assertThat;
 
 /**
  *
